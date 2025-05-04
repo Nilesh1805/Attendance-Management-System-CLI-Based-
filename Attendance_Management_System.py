@@ -60,8 +60,8 @@ def attendance_details(students):
     print('\n...Attendance details...')
     # for roll_num, detais in students.items():
     #     # print(f'Roll no. : {roll_num}, Name : {detais['name']}, Attendance : {detais['attendance']}')
-    #     print(f'Roll no. : {roll_num}, Name : {detais['name']}, Attendance : {', '.join(detais['attendance'])}')
-    #     # print(f'Roll no. : {roll_num}, Name : {detais['name']}, Attendance : {(detais['attendance'])}')
+    #     print(f'Roll no. : {roll_num}, Name : {detais['name']}, Attendance : {', '.join(detais['attendance'])}') #Attendance was seperated by ,
+    #     # print(f'Roll no. : {roll_num}, Name : {detais['name']}, Attendance : {(detais['attendance'])}') #In List formate
 
     attendance_percentage(students) #Instead of above code use this line
 
